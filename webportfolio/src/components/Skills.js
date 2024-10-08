@@ -56,7 +56,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img src={colSharp} className="col-sharp" />
+            {/* <img src={colSharp} className="col-sharp" /> */}
         </section>
     )
 
