@@ -6,7 +6,7 @@ import headerImg from '../assets/img/header-img.svg';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Student", "Full Stack Developer", "Programmer"];
+  const toRotate = ["Hemani!","a Student!", "a Full Stack Developer!", "a Programmer!"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
   const period = 2000;
@@ -47,7 +47,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Website!</span>
             <h1>
-              {`Hi, I am Hemani! `} <span className="wrap">{text}</span>
+              {`Hi, I'm `} <span className="wrap">{text}</span>
             </h1>
             <p>Sophomore @ Allegheny College. Double majoring in Computer Science & Economics.</p>
             <button onClick={() => console.log('connect')}>
