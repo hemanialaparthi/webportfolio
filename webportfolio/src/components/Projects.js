@@ -11,18 +11,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "AI Health ChatBot",
+      description: "An AI-driven chatbot designed to assist users in diagnosing symptoms and providing health advice and information about nearby hospitals.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Recipe Generator + Calorie Tracker",
+      description: "Utilizing APIs, this project offers college students easy recipes and automatic calorie calculations, making meal planning effortless.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Flappy Bird Mod",
+      description: "A fun flappy bird game clone but with an addition of a mod which involves potions (like Minecraft).",
       imgUrl: projImg3,
     }
   ];
